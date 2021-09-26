@@ -1,0 +1,58 @@
+body {
+	background-color: #34ce57;
+
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: 600;
+	font-family: serif;
+	font-size: 20px;
+}
+
+.navbar-brand:hover{
+	color:gray;
+}
+
+.main_content {
+	border: 1px solid white;
+	margin-top: 100px;
+	padding: 20px;
+}
+
+.card {
+	background-color: #28a745;
+	color:white;
+}
+
+.card:hover {
+	background-color: rgba(0,255,0,0.3);
+	color: white;
+	font-weight: 600;
+}
+
+.card-title {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.card-text {
+	font-weight: 500;
+}
+
+.btn-home {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.card_right {
+	height: 380px;
+	/* 205*/
+}
+
+@media(max-width:600px){
+
+	.card_right {
+		height: 205px;
+	}
+}

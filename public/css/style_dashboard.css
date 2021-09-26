@@ -1,0 +1,68 @@
+body {
+	background-color: #F8F8F8;
+
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: 600;
+	font-family: serif;
+	font-size: 20px;
+}
+
+.navbar-brand:hover{
+	color:gray;
+}
+
+.main_content {
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.card-identity {
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+.card-identity h5 {
+	left:0;
+	margin-top: 30px;
+	font-weight: 600;
+}
+
+.card-identity p {
+	font-weight: 600;
+}
+
+.img-fluid {
+	max-width: 160px;
+	min-width: 160px;
+	max-height: 150px;
+	min-height: 150px;
+}
+
+@media(max-width:600px){
+	.card-identity {
+		margin:1px;
+		border: 1px solid black;
+		border-radius: 3px;
+		padding: 15px;
+		max-width: 411px;
+		margin-bottom: 10px;
+	}
+
+	.card-identity h5 {
+		margin-top: 40px;
+		font-size: 19px;
+		font-weight: 600;
+		margin-left: 10px;
+	}
+
+	.card-identity p {
+		font-size: 15px;
+		font-weight: 600;
+		margin-left: 12px;
+	}
+}
